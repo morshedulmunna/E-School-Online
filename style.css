@@ -16,7 +16,7 @@ section{
     width: 200px;
     height: 59px;
 }
-/*=======Hadder Part*/
+/*========Hadder Part===================*/
 .hadder{
     padding-top: 40px;
 }
@@ -44,7 +44,7 @@ section{
     text-decoration: none;
     color: black;
   }
-/*Icon and Catagory*/
+/*=======Icon and Catagory===============*/
   .icon-customize img{
       width: 50px;
       padding-bottom: 30px;
@@ -52,3 +52,20 @@ section{
   .icon-customize{
       text-align: center;
   }
+/*=======Online Course Card Part=========*/
+.online-Course{
+    text-align: center;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px;
+}
+.footer-customize{
+    padding-top: 40px;
+}
+.footer-icon img{
+    width: 25px;
+    padding-right: 5px;
+}
