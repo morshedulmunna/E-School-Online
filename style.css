@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-color:#F0FFF0;
+    height: 500px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.Logo-image img {
+    width: 200px;
+    height: 59px;
+}
+/*=======Hadder Part*/
+.hadder{
+    padding-top: 40px;
+}
+.hadder-image img{
+    width: 500px;
+}
+.navbar-nav{
+    padding-inline-start: 50px;
+}
+
+.link-button {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 8px 18px 8px 18px;
+    font-weight: 500;
+    background: #21B573;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  .link-button:hover {
+    background: #11C675;
+    text-decoration: none;
+    color: black;
+  }
+/*Icon and Catagory*/
+  .icon-customize img{
+      width: 50px;
+      padding-bottom: 30px;
+  }
+  .icon-customize{
+      text-align: center;
+  }
