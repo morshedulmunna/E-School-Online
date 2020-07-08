@@ -1,15 +1,16 @@
 body{
     margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-section{
+.hadder{
     background-color:#F0FFF0;
-    height: 600px;
+    height: 500px;
 }
 
 .container{
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 
@@ -47,17 +48,6 @@ section{
     text-decoration: none;
     color: black;
   }
-  .box-shaddow{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
-    cursor: pointer;
-  }
-  .box-shaddow:hover{
-    background: #F0FFF0;
-    text-decoration: none;
-    color: black;
-  }
 /*=======Icon and Catagory===============*/
   .icon-customize img{
       width: 50px;
@@ -65,6 +55,15 @@ section{
   }
   .icon-customize{
       text-align: center;
+  }
+  .box-shaddow:hover{
+    background: #fcfcfc;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    cursor: pointer;
   }
 /*=======Online Course Card Part=========*/
 .online-Course{
@@ -78,14 +77,20 @@ section{
     cursor: pointer
 }
 .card:hover {
-    background: #F0FFF0;
-    text-decoration: none;
-    color: black;
+    background: #fbfffb;
   }
 .footer-icon img{
     width: 20px;
 }
 /*=========This is Testimonial Part=========*/
+#Testimonial{
+    text-align: center;
+}
 .Testimonial-man img{
-    width: 200px;
+    width: 130px;
+}
+.wrap{
+    width: 550px;
+    margin-left: 50px;
+    text-align: justify ;
 }
