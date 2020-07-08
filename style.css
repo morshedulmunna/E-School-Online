@@ -5,11 +5,12 @@ body{
 
 section{
     background-color:#F0FFF0;
-    height: 500px;
+    height: 600px;
 }
 
 .container{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .Logo-image img {
@@ -22,9 +23,6 @@ section{
 }
 .hadder-image img{
     width: 500px;
-}
-.navbar-nav{
-    padding-inline-start: 50px;
 }
 
 .link-button {
@@ -62,10 +60,10 @@ section{
     box-shadow: 5px 5px 10px lightgray;
     padding: 20px;
 }
-.footer-customize{
-    padding-top: 40px;
-}
 .footer-icon img{
-    width: 25px;
-    padding-right: 5px;
+    width: 20px;
+}
+/*=========This is Testimonial Part=========*/
+.Testimonial-man img{
+    width: 200px;
 }
