@@ -8,15 +8,13 @@ body{
     background-color:#F0FFF0;
     height: 500px;
 }
-
 .container{
     padding-top: 10px;
     padding-bottom: 50px;
 }
 
 .Logo-image img {
-    width: 300px;
-    height: 79px;
+    width: 200px;
 }
 /*========Hadder Part===================*/
 .hadder{
@@ -28,7 +26,7 @@ body{
 .nav-link {
     font-weight: 500;
     margin: 10px;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .link-button {
@@ -82,6 +80,13 @@ body{
 .footer-icon img{
     width: 20px;
 }
+/*=========This is school Gallary Part=========*/
+
+.school-images img{
+    width: 250px;
+    height: 196px;
+}
+
 /*=========This is Testimonial Part=========*/
 #Testimonial{
     text-align: center;
