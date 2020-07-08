@@ -1,196 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School Online</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-<div class="hadder">
-<!--THis is Logo And NavBar Part-->
-    <div class="container nav-con"> 
-        <div class="row">
-            <div class="col-md-6 Logo-image">
-                <img src="asset/Logo.png" alt="E school Logo">
+    <div class="hadder">
+        <!--THis is Logo And NavBar Part-->
+        <div class="container nav-con">
+            <div class="row">
+                <div class="col-md-6 Logo-image">
+                    <img src="asset/Logo.png" alt="E school Logo">
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="#Books">Books</a>
+                                <a class="nav-item nav-link" href="#Course">Course</a>
+                                <a class="nav-item nav-link" href="#Others">Others</a>
+                                <a class="nav-item nav-link" href="#Blog">Blog</a>
+                                <button class="link-button nav-link">Sing In</button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        <div class="col-md-6">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#Books">Books</a>
-                    <a class="nav-item nav-link" href="#Course">Course</a>
-                    <a class="nav-item nav-link" href="#Others">Others</a>
-                    <a class="nav-item nav-link" href="#Blog">Blog</a>
-                    <button class="link-button nav-link">Sing In</button>
-                </div>
-                </div>
-            </nav>
-        </div>
-    </div>
 
-<!--THis is Hadder Part-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 hadder-text-format">
-                <h5 style="color: red;">are you ready to learn?</h5>
-                <h1 style="font-weight: 700;">Learn With Fun <br> on <span style="color: #21B573;">any schedule</span> </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> At dolor magni sit est esse eos quod! Quaerat quis quia commodi!</p>
-                <button class="link-button">Get Started</button>
-            </div>
-            <div class="col-md-6 hadder-image">
-                <img src="asset/Photos/Illustration.png" alt="">
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-<!--This is Icon and Catagory Part-->
-<div class="container" id="Books">
-    <div class="row">
-        <div class="col-md-3 col-sm-6 box-shaddow">
-            <div class="icon-customize">
-                <div class="icon-customize">
-                    <img class="icon" src="asset/ICON/book.png" alt="">
-                </div>
-                <div>
-                    <h3>1500+ Topic</h3>
-                    <p>Learn Anythings</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 box-shaddow">
-            <div class="icon-customize">
-                <div class="icon-customize">
-                    <img class="icon" src="asset/ICON/Student.png" alt="">
-                </div>
-                <div>
-                    <h3>1800+ Students</h3>
-                    <p>Learn Anythings</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 box-shaddow">
-            <div class="icon-customize">
-                <div class="icon-customize">
-                    <img class="icon" src="asset/ICON/Test.png" alt="">
-                </div>
-                <div>
-                    <h3>9K+ Test Token</h3>
-                    <p>Learn Anythings</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 box-shaddow">
-            <div class="icon-customize">
-                <div class="icon-customize">
-                    <img class="icon" src="asset/ICON/Students.png" alt="">
-                </div>
-                <div>
-                    <h3>2000+ Student</h3>
-                    <p>Learn Anythings</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--This is Online Course Card Part-->
-    <div class="container" id="Course">
-        <div class="online-Course">
-            <h1><strong>Online Course</strong></h1>
-        </div>
-        <div class="card-deck container">
-            <div class="card">
-              <img src="asset/Photos/Morder pyschology.png" class="card-img-top" alt="Mordern pyschology">
-              <div class="card-body">
-                <h5 class="card-title">Mordern pyschology</h5>
-                <p class="card-text">Designation</p>
-                <button class="link-button">Sing in</button>
-              </div>
-                <div class="d-flex justify-content-between">
-                    <div class="footer-icon">
-                        <img src="asset/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
+            <!--THis is Hadder Part-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 hadder-text-format">
+                        <h5 style="color: red;">are you ready to learn?</h5>
+                        <h1 style="font-weight: 700;">Learn With Fun <br> on <span style="color: #21B573;">any
+                                schedule</span> </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> At dolor magni sit est esse eos
+                            quod! Quaerat quis quia commodi!</p>
+                        <button class="link-button">Get Started</button>
                     </div>
-                    <div class="footer-icon">
-                        <img src="asset/ICON/people.png" alt="">
-                        <small>60 Seats</small>
-                   </div>
-                </div>
-            </div>
-            <div class="card" id="Others">
-              <img src="asset/Photos/Morder psyc.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mordern pyschology</h5>
-                <p class="card-text">Designation</p>
-                <button class="link-button">Sing in</button>
-              </div>
-                <div class="d-flex justify-content-between">
-                    <div class="footer-icon">
-                        <img src="asset/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
-                    </div>
-                    <div class="footer-icon">
-                        <img src="asset/ICON/people.png" alt="">
-                        <small>60 Seats</small>
+                    <div class="col-md-6 hadder-image">
+                        <img src="asset/Photos/Illustration.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="card">
-              <img src="asset/Photos/Morder pychons.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mordern pyschology</h5>
-                <p class="card-text">Designation</p>
-                <button class="link-button">Sing in</button>
-              </div>
-                 <div class="d-flex justify-content-between">
-                    <div class="footer-icon">
-                        <img src="asset/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
+        </div>
+
+
+        <!--This is Icon and Catagory Part-->
+        <div class="container" id="Books">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 box-shaddow">
+                    <div class="icon-customize">
+                        <div class="icon-customize">
+                            <img class="icon" src="asset/ICON/book.png" alt="">
+                        </div>
+                        <div>
+                            <h3>1500+ Topic</h3>
+                            <p>Learn Anythings</p>
+                        </div>
                     </div>
-                    <div class="footer-icon">
-                        <img src="asset/ICON/people.png" alt="">
-                        <small>60 Seats</small>
+                </div>
+                <div class="col-md-3 col-sm-6 box-shaddow">
+                    <div class="icon-customize">
+                        <div class="icon-customize">
+                            <img class="icon" src="asset/ICON/Student.png" alt="">
+                        </div>
+                        <div>
+                            <h3>1800+ Students</h3>
+                            <p>Learn Anythings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 box-shaddow">
+                    <div class="icon-customize">
+                        <div class="icon-customize">
+                            <img class="icon" src="asset/ICON/Test.png" alt="">
+                        </div>
+                        <div>
+                            <h3>9K+ Test Token</h3>
+                            <p>Learn Anythings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 box-shaddow">
+                    <div class="icon-customize">
+                        <div class="icon-customize">
+                            <img class="icon" src="asset/ICON/Students.png" alt="">
+                        </div>
+                        <div>
+                            <h3>2000+ Student</h3>
+                            <p>Learn Anythings</p>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
-<!--This is Testimonial Part-->
-    <div class="container" id="testimonial">
-        <h2 id="Testimonial">Testimonial</h2>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-12 d-flex align-items-center testimonial justify-content-center Testimonial-man">
-                <img src="asset/Photos/Man.png" alt="">
-                <p class="wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere delectus quo nesciunt et officia ad modi soluta alias corporis illo eveniet, possimus reiciendis, animi veritatis aperiam hic dolore obcaecati!</p>
-            </div>
         </div>
-    </div>
 
+        <!--This is Online Course Card Part-->
+        <div class="container" id="Course">
+            <div class="online-Course">
+                <h1><strong>Online Course</strong></h1>
+            </div>
+            <div class="card-deck container">
+                <div class="card">
+                    <img src="asset/Photos/Morder pyschology.png" class="card-img-top" alt="Mordern pyschology">
+                    <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="link-button">Sing in</button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="footer-icon">
+                            <img src="asset/ICON/calendar.png" alt="">
+                            <small>Start 20 April 2021</small>
+                        </div>
+                        <div class="footer-icon">
+                            <img src="asset/ICON/people.png" alt="">
+                            <small>60 Seats</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="Others">
+                    <img src="asset/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="link-button">Sing in</button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="footer-icon">
+                            <img src="asset/ICON/calendar.png" alt="">
+                            <small>Start 20 April 2021</small>
+                        </div>
+                        <div class="footer-icon">
+                            <img src="asset/ICON/people.png" alt="">
+                            <small>60 Seats</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="asset/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mordern pyschology</h5>
+                        <p class="card-text">Designation</p>
+                        <button class="link-button">Sing in</button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="footer-icon">
+                            <img src="asset/ICON/calendar.png" alt="">
+                            <small>Start 20 April 2021</small>
+                        </div>
+                        <div class="footer-icon">
+                            <img src="asset/ICON/people.png" alt="">
+                            <small>60 Seats</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--This is Testimonial Part-->
+            <div class="container" id="testimonial">
+                <h2 id="Testimonial">Testimonial</h2>
+                <div class="row">
+                    <div
+                        class="col-md-12 col-sm-12 col-12 d-flex align-items-center testimonial justify-content-center Testimonial-man">
+                        <img src="asset/Photos/Man.png" alt="">
+                        <p class="wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere
+                            delectus quo nesciunt et officia ad modi soluta alias corporis illo eveniet, possimus
+                            reiciendis, animi veritatis aperiam hic dolore obcaecati!</p>
+                    </div>
+                </div>
+            </div>
 
+            <!--======Footer Part======-->
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>Millions of people of all ages and from around the world are improving their lives with
+                                us. </p>
+                        </div>
+                        <div class="col-md-3 footer-text">
+                            <h2>Courses</h2>
+                            <h6>Grapich Design</h6>
+                            <h6>Web Design</h6>
+                            <h6>Business</h6>
+                            <h6>Marketing</h6>
+                            <h6>Engineering</h6>
+                        </div>
+                        <div class="col-md-3 footer-text">
+                            <h2>Terms</h2>
+                            <h6>Grapich Design</h6>
+                            <h6>Web Design</h6>
+                            <h6>Business</h6>
+                            <h6>Marketing</h6>
+                            <h6>Engineering</h6>
+                        </div>
+                        <div class="col-md-3 footer-text">
+                            <h2>Useful Link</h2>
+                            <h6>Grapich Design</h6>
+                            <h6>Web Design</h6>
+                            <h6>Business</h6>
+                            <h6>Marketing</h6>
+                            <h6>Engineering</h6>
+                        </div>
+                    </div>
+                    <!--footer-part-->
+                    <footer class="footer-copyright">
+                        <small>Copyright &copy; 2020 Programing-hero.com</small>
+                    </footer>
+                </div>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--This is My JS Default Link-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <!--This is My JS Default Link-->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
 </body>
+
 </html>
