@@ -94,3 +94,20 @@ body{
     margin-left: 50px;
     text-align: justify ;
 }
+
+/*=========Footer Part=========*/
+.footer-area {
+    margin-top: 60px;
+    padding: 40px;
+    height: 80%;
+    width: 100%;
+    background-color: #282531;
+    color: whitesmoke;
+
+}
+
+/*footer-style*/
+.footer-copyright{
+    margin-top: 50px;
+    text-align: center;
+}
