@@ -51,6 +51,12 @@ section{
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
+    cursor: pointer;
+  }
+  .box-shaddow:hover{
+    background: #F0FFF0;
+    text-decoration: none;
+    color: black;
   }
 /*=======Icon and Catagory===============*/
   .icon-customize img{
@@ -69,7 +75,13 @@ section{
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
     padding: 20px;
+    cursor: pointer
 }
+.card:hover {
+    background: #F0FFF0;
+    text-decoration: none;
+    color: black;
+  }
 .footer-icon img{
     width: 20px;
 }
