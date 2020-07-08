@@ -14,8 +14,8 @@ section{
 }
 
 .Logo-image img {
-    width: 200px;
-    height: 59px;
+    width: 300px;
+    height: 79px;
 }
 /*========Hadder Part===================*/
 .hadder{
@@ -23,6 +23,11 @@ section{
 }
 .hadder-image img{
     width: 500px;
+}
+.nav-link {
+    font-weight: 500;
+    margin: 10px;
+    font-size: 21px;
 }
 
 .link-button {
@@ -41,6 +46,11 @@ section{
     background: #11C675;
     text-decoration: none;
     color: black;
+  }
+  .box-shaddow{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
   }
 /*=======Icon and Catagory===============*/
   .icon-customize img{
